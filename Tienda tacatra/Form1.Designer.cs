@@ -147,6 +147,7 @@
             cboAProductos.Name = "cboAProductos";
             cboAProductos.Size = new Size(205, 23);
             cboAProductos.TabIndex = 10;
+            cboAProductos.KeyPress += cboAProductos_KeyPress;
             // 
             // txtcantidadven
             // 

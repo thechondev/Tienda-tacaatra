@@ -111,5 +111,10 @@ namespace Tienda_tacatra
             }
 
         }
+
+        private void cboAProductos_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }
