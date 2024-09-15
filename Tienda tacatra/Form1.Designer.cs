@@ -156,6 +156,7 @@
             txtcantidadven.Name = "txtcantidadven";
             txtcantidadven.Size = new Size(49, 25);
             txtcantidadven.TabIndex = 11;
+            txtcantidadven.KeyPress += txtcantidadven_KeyPress;
             // 
             // lblPRmasvendido
             // 
